@@ -1,16 +1,33 @@
-# shop_app
+🛒 Shop App
+Shop is an e-commerce application developed using Flutter, BLoC, and API. It provides a smooth user experience for browsing, searching, and adding products to favorites, with authentication features.
 
-A new Flutter project.
+✨ Features
+Onboarding Screens to introduce the app.
 
-## Getting Started
+User authentication (Login & Register).
 
-This project is a starting point for a Flutter application.
+Display products with images and prices.
 
-A few resources to get you started if this is your first Flutter project:
+Categories section for better product organization.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Add products to favorites for easy access.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Search functionality to find specific products.
+
+Edit user profile information.
+
+Logout from the account.
+
+🛠️ Technologies Used
+Flutter
+
+Dart
+
+BLoC (Business Logic Component) for state management.
+
+API Integration to fetch and display dynamic data.
+
+📸 App Screenshots
+
+![shopApp](https://github.com/user-attachments/assets/900544ce-887f-49bb-b339-73c68dfd6d0c)
+
