@@ -6,7 +6,7 @@ const HOME = 'home';
 
 const GET_CATEGORIES = 'categories';
 
-const FAVOURITES = 'favorites';
+const FAVORITES = 'favorites';
 
 const GET_FAVORITES = 'favorites?';
 

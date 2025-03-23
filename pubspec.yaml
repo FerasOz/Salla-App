@@ -37,6 +37,7 @@ dependencies:
     sdk: flutter
   flutter_bloc: ^9.1.0
   fluttertoast: ^8.2.12
+  hexcolor: ^3.0.1
   shared_preferences: ^2.5.2
   smooth_page_indicator: ^1.2.1
 
@@ -57,7 +58,12 @@ flutter:
   assets:
     - assets/images/
 
-  # To add assets to your application, add an assets section, like this:
+  fonts:
+    - family: Jannah
+      fonts:
+        - asset: assets/fonts/jannah.ttf
+          weight: 700
+# To add assets to your application, add an assets section, like this:
   #   - images/a_dot_ham.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

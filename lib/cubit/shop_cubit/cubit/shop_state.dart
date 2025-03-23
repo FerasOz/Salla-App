@@ -59,5 +59,14 @@ class ShopSuccessUpdateUserDataState extends ShopState{
 
 class ShopLoadingUpdateUserDataState extends ShopState{}
 
+class ShopChangeModeState extends ShopState {}
 
 class ShopErrorUpdateUserDataState extends ShopState{}
+
+class ShopLoadingGetProductDetailsState extends ShopState{}
+
+class ShopSuccessGetProductDetailsState extends ShopState{}
+
+class ShopErrorGetProductDetailsState extends ShopState{}
+
+class AppChangeModeState extends ShopState{}

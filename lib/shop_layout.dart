@@ -38,7 +38,7 @@ class ShopLayout extends StatelessWidget {
             unselectedLabelStyle: TextStyle(color: primaryColor),
             currentIndex: cubit.currentIndex,
             onTap: (int index) {
-              cubit.changeBottomNav(index);
+              cubit.changeBottom(index);
             },
             items: [
               BottomNavigationBarItem(
@@ -50,7 +50,7 @@ class ShopLayout extends StatelessWidget {
                 label: 'Categories',
               ),
               BottomNavigationBarItem(
-                icon: Icon(Icons.favorite, color: primaryColor),
+                icon: Icon(Icons.favorite_border_outlined, color: primaryColor),
                 label: 'Favorites',
               ),
               BottomNavigationBarItem(
